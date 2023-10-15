@@ -9,5 +9,9 @@ class User(BaseModel):
 
     email = ""
     password = ""
+<<<<<<< HEAD
     first_name = ""
+=======
+    first_name =""
+>>>>>>> 44619dd7e466660f65680622a772afdc800fa804
     last_name = ""
