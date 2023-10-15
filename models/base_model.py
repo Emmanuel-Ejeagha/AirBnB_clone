@@ -47,8 +47,9 @@ class BaseModel:
 
         return "[{}] ({}) {}".\
             format(type(self).__name__, self.id, self.__dict__)
-    
+
     def to_dict(self):
+
         """Returns a dictionary representation of an instance."""
 
         my_dict = self.__dict__.copy()
